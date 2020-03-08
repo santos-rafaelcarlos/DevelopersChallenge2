@@ -1,0 +1,47 @@
+﻿@*
+	For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<Xayah.Model.BankTransfer>
+@{	
+}
+
+<div class="panel panel-default">
+	<div class="panel-heading">Transações</div>
+	<table id="myTable" class="table" cellspacing="0">
+		<thead>
+			<tr>
+				<th class="hidden">Id</th>
+				<th class="text-center">Descrição</th>
+				<th class="text-center">Data da Transação</th>
+				<th class="text-center">Valor</th>
+				<th class="text-center">Tipo</th>
+				<th class="hidden">Last Update</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td class="hidden">
+						@Html.DisplayFor(modelItem => item.Id)
+					</td>
+					<td class="text-center">
+						@Html.DisplayFor(modelItem => item.Description)
+					</td>
+					<td class="text-center">
+						@Html.DisplayFor(modelItem => item.Date)
+					</td>
+					<td class="text-right">
+						@Html.DisplayFor(modelItem => item.Value)
+					</td>
+					<td class="text-center">
+						@Html.DisplayFor(modelItem => item.Type)
+					</td>
+					<td class="hidden">
+						@Html.DisplayFor(modelItem => item.LastUpdate)
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>

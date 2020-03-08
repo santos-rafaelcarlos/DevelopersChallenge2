@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xayah.FinancesService", "Xayah.FinancesService\Xayah.FinancesService.csproj", "{52022D6E-C707-4E30-9FB1-BAB8DB4096DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xayah.Model", "Xayah.Domain\Xayah.Model.csproj", "{F0679E8A-6B9F-4C42-8E0F-8C2DAC750BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xayah.Data", "Xayah.Data\Xayah.Data.csproj", "{B53B4FD8-230A-4704-AA33-A4E17C7DCEE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Hosted", "_Hosted", "{C65549FF-2970-4873-A89E-670E05D86FE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BD", "BD", "{327EE3DA-E06E-4980-B9B7-E5E6F8B48444}"
+	ProjectSection(SolutionItems) = preProject
+		BD\dbo.BankTransfer.sql = BD\dbo.BankTransfer.sql
+		BD\TransferDB.ldf = BD\TransferDB.ldf
+		BD\TransferDB.mdf = BD\TransferDB.mdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xayah.Impl", "Xayah.Impl\Xayah.Impl.csproj", "{1BA81A64-A249-4262-92D1-FB1BDE1D68AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xayah.App", "Xayah.App\Xayah.App.csproj", "{9D6A3389-DBD0-4856-B4D0-BF13A7757EF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52022D6E-C707-4E30-9FB1-BAB8DB4096DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52022D6E-C707-4E30-9FB1-BAB8DB4096DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52022D6E-C707-4E30-9FB1-BAB8DB4096DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52022D6E-C707-4E30-9FB1-BAB8DB4096DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0679E8A-6B9F-4C42-8E0F-8C2DAC750BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0679E8A-6B9F-4C42-8E0F-8C2DAC750BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0679E8A-6B9F-4C42-8E0F-8C2DAC750BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0679E8A-6B9F-4C42-8E0F-8C2DAC750BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53B4FD8-230A-4704-AA33-A4E17C7DCEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53B4FD8-230A-4704-AA33-A4E17C7DCEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53B4FD8-230A-4704-AA33-A4E17C7DCEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53B4FD8-230A-4704-AA33-A4E17C7DCEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA81A64-A249-4262-92D1-FB1BDE1D68AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA81A64-A249-4262-92D1-FB1BDE1D68AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA81A64-A249-4262-92D1-FB1BDE1D68AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA81A64-A249-4262-92D1-FB1BDE1D68AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6A3389-DBD0-4856-B4D0-BF13A7757EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6A3389-DBD0-4856-B4D0-BF13A7757EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6A3389-DBD0-4856-B4D0-BF13A7757EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6A3389-DBD0-4856-B4D0-BF13A7757EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52022D6E-C707-4E30-9FB1-BAB8DB4096DA} = {C65549FF-2970-4873-A89E-670E05D86FE9}
+		{9D6A3389-DBD0-4856-B4D0-BF13A7757EF6} = {C65549FF-2970-4873-A89E-670E05D86FE9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08165DC1-8F09-4317-A313-7D81CF01B532}
+	EndGlobalSection
+EndGlobal
